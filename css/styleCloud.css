@@ -1,0 +1,494 @@
+.BestCloud{
+ 	background: #1B1C1E;
+ 	height:500px;
+ }
+
+ .BestCloud h1{
+ 	color:rgb(226, 226, 226);
+ 	text-align: center;
+ 	padding-top:40px;
+ 	font-size: 50px;
+ }
+
+ .BestCloud span{
+ 	color:#F68E13;
+ }
+
+ .BestCloudInfo{
+ 	overflow: hidden;
+ 	padding-top:60px;
+   padding-left: 100px;
+ }
+
+ .BestCloudInfo p{
+ 	float: left;
+ 	width:40%;
+ 	margin-left:500px;
+ 	letter-spacing: .2rem;
+ 	line-height:1.2rem;
+ 	margin-top:-230px;
+   text-align: center;
+ }
+
+ .BestCloudInfo img{
+ 	float: left;
+ 	width: 20%;
+ 	margin-left:150px;
+ 	margin-top:-110px;
+ 	z-index:800!important;
+ }
+
+ .beforeImg{
+ 	width: 100px;
+    height: 130px;
+    border-left: 3px solid;
+    border-top: 3px solid;
+    border-color: #B36A14;
+    margin-left:129px;
+ }
+
+ .afterImg{
+ 	width:150px;
+ 	height: 150px;
+ 	background: #F68E13;
+ 	z-index:0;
+   margin-left: 270px;
+   margin-top:-25px;
+ }
+
+ .Networking{
+   background: #181718;
+   height:580px;
+ }
+
+ .Networking h1{
+   text-align: center;
+   color:rgb(226, 226, 226);
+   padding-top:80px;
+   padding-bottom: 40px;
+ }
+
+ .Networking span{
+   color:#F68E13;
+ }
+
+ .Networking p{
+   color:rgb(226, 226, 226);
+   width:80%;
+   padding-top:40px;
+   margin-left:130px;
+   line-height: 1.3rem;
+   font-size: 14px;
+ }
+
+ .footer .choise .one h1, .footer .choise .two h1, .footer .choise .three h1,.footer .choise .four h1{
+   color:rgb(226, 226, 226);
+ }
+
+ .footer .choise{
+  background: #1B1C1E;
+ }
+
+ .footer .choise .one, .footer .choise .two, .footer .choise .three, .footer .choise .four{
+    height: 230px;
+    margin-top: 2%;
+    width:250px;
+    background: #181718;
+
+ }
+
+ .youtube{
+   background: #181718;
+   height: 500px;
+   padding:20px;
+ }
+
+ .youtube h1{
+   text-align: center;
+   color:rgb(226, 226, 226);
+   padding-top:30px;
+ }
+
+ .youtube span{
+   color:#F68E13;
+ }
+
+ .youtubeInfo{
+   overflow: hidden;
+   padding:30px;
+       margin-left: 80px;
+
+ }
+
+ .youtubeInfo img{
+   float: left;
+   width:40%;
+   margin-top:25px;
+ }
+
+ .youtubeInfo div{
+   float: left;
+   width: 55%;
+   margin-left: 50px;
+ }
+
+ .youtubeInfo p{
+   font-size: 13px;
+   text-align: left;
+   opacity: .6;
+   padding-bottom: 35px;
+    padding-top: 10px;
+}
+
+.youtubeInfo span{
+   color:rgb(226, 226, 226);
+   padding-top:50px;
+   font-size: 15px;
+   padding-top:5px;
+}
+
+.ourServices{
+   background: #1B1C1E;
+   height:350px;
+   padding:20px;
+}
+
+.ourServices h1{
+ color:rgb(226, 226, 226);
+ text-align: center;
+ padding-top:30px;
+}
+
+.ourServices span{
+   color:#F68E13;
+}
+
+.ourServices h2{
+   color:rgb(226, 226, 226);
+}
+
+.card1, .card2, .card3{
+border-right: none}
+
+.card img{
+    padding-top: 30px;
+    margin-bottom: -50px;
+    width:60px;
+    border-radius: 0%;
+}
+
+.card{
+   padding-top:10px;
+}
+
+.choose{
+   background: #181718;
+   padding:50px;
+}
+
+.choose h1{
+   color:rgb(226, 226, 226);
+   text-align: center;
+   padding-top:20px;
+   padding-bottom: 40px;
+}
+
+.choose span{
+   color:#F68E13;
+}
+
+.choose img{
+   width:250px;
+   border-radius: 20px;
+   margin-left: 50px;
+}
+
+.choose img.imgFirst{
+   margin-left:200px;
+}
+
+.security h1{
+   padding-top:8px;
+   padding-bottom:20px;
+}
+
+.security{
+  background: #1B1C1E;
+  padding-top:30px;
+}
+
+.firstSecurity{
+  background: #181718;
+}
+
+.footer2{background: #181718}
+
+
+@media screen and (max-width:700px){
+ 
+ .BestCloud {
+    height: 800px;
+ }
+
+ .BestCloud h1 {
+   font-size: 30px;
+  }
+
+  .BestCloudInfo p{
+    width: 84%;
+    padding-top: 285px;
+    margin-left: 45px;
+    font-size: 13px;
+  }
+
+  .beforeImg {
+    width: 100px;
+    height: 130px;
+    border-left: 3px solid;
+    border-top: 3px solid;
+    border-color: #B36A14;
+    margin-left: 27px;
+  }
+
+  .BestCloudInfo img {
+    float: left;
+    width: 226px;
+    margin-left: 43px;
+    margin-top: -114px;
+    z-index: 800!important;
+  }
+
+  .afterImg {
+    width: 180px;
+    height: 128px;
+    background: #F68E13;
+    z-index: 0;
+    margin-left: 107px;
+    margin-top: -30px;
+  }
+
+  .BestCloudInfo p {
+    width: 104%;
+    padding-top: 285px;
+    margin-left: -46px;
+    font-size: 13px;
+  }
+
+  .Networking h1{
+    padding-top: 58px;
+  }
+
+  .Networking{
+    height: 700px;
+  }
+
+  .Networking p {
+    color: rgb(226, 226, 226);
+    width: 80%;
+    padding-top: 13px;
+    margin-left: 53px;
+    line-height: 1.3rem;
+    font-size: 14px;
+}
+
+.footer{
+    height: 1012px;
+ }
+
+ .footer .choise {
+    height: 920px;
+ }
+
+.footer .choise .one, 
+.footer .choise .two,
+.footer .choise .three,
+.footer .choise .four{
+  width: 250px;
+}
+
+ .footer .choise .two,.footer .choise .three, .footer .choise .four{
+    margin-top:40px;
+ }
+ 
+ .footer .choise .one:hover,
+ .footer .choise .two:hover,
+ .footer .choise .three:hover,
+ .footer .choise .four:hover{
+    background-color: #181718;
+    cursor: pointer;
+    width:243px;
+    padding:2%;
+    box-shadow: 0 8px 16px 0 black;
+    transition: .5s;
+    transform: scale(1.1);
+}
+
+.fourth h1{
+    font-size: 28px;
+ }
+
+ .youtube{
+  height: 944px;
+ }
+
+ .youtube h1{
+  font-size: 24px;
+ }
+
+ .youtubeInfo {
+    overflow: hidden;
+    padding: 30px;
+    margin-left: 100px;
+}
+
+.youtubeInfo img {
+    width: 100%;
+    margin-top: 25px;
+    margin-left: -57px;
+}
+
+.youtubeInfo p {
+    font-size: 13px;
+    text-align: left;
+    opacity: .6;
+    padding-bottom: 35px;
+    padding-top: 10px;
+    width: 279px;
+    margin-left: -73px;
+ }
+
+ .youtubeInfo span {
+    color: rgb(226, 226, 226);
+    padding-top: 50px;
+    font-size: 15px;
+    padding-top: 5px;
+    margin-left: -69px;
+}
+
+.ourServices{
+  height: 510px;
+}
+
+.ourServices h1 {
+    font-size: 34px;
+}
+
+.card1, .card2, .card3, .card4 {
+    width: 40%;
+    height: 257px;
+}
+.card3, .card4 {
+    margin-top: -87px;
+}
+
+.ourServices h2 {
+    color: rgb(226, 226, 226);
+    font-size: 21px;
+}
+
+.choose img {
+    width: 198px;
+    border-radius: 20px;
+    margin-left: 90px;
+    margin-bottom: 10px;
+}
+
+.choose h1 {
+    font-size: 15px;
+ }
+
+ .choose img.imgFirst {
+    margin-left: 90px;
+}
+
+.security h1 {
+    padding-top: 8px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+.security p {
+    color: rgb(226, 226, 226);
+    font-size: 11px;
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing: .1rem;
+    line-height: 1.1rem;
+}
+}
+
+@media screen and (min-width:700px) and (max-width: 1300px){
+
+.BestCloudInfo p {
+    float: left;
+    width: 431px;
+    margin-left: 309px;
+    letter-spacing: .2rem;
+    line-height: 1.2rem;
+    margin-top: -257px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.BestCloudInfo img {
+    float: left;
+    width: 240px;
+    margin-left: -40px;
+    margin-top: -110px;
+    z-index: 800!important;
+}
+
+.beforeImg {
+    width: 100px;
+    height: 130px;
+    border-left: 3px solid;
+    border-top: 3px solid;
+    border-color: #B36A14;
+    margin-left: -60px;
+}
+
+.afterImg {
+    width: 150px;
+    height: 150px;
+    background: #F68E13;
+    z-index: 0;
+    margin-left: 75px;
+    margin-top: -49px;
+    margin-top: -26px;
+}
+.footer .choise .one, .footer .choise .two, .footer .choise .three, .footer .choise .four {
+    height: 217px;
+    margin-top: 2%;
+    width: 220px;
+    background: #181718;
+    margin-left: 16px;
+}
+
+.youtubeInfo img {
+    float: left;
+    width: 430px;
+    margin-top: 25px;
+    margin-left: 10%;
+}
+
+.youtubeInfo div {
+    float: left;
+    width: 55%;
+    margin-left: 105px;
+}
+
+.youtube {
+    background: #181718;
+    height: 950px;
+    padding: 20px;
+}
+
+.choose img.imgFirst {
+    margin-left: 25px;
+}
+
+.choose img {
+    width: 191px;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+}

@@ -1,0 +1,346 @@
+.aboutUs{
+	height: 560px;
+	background: #1B1C1E;
+}
+
+.aboutUs h1{
+	color:rgb(226, 226, 226);
+	text-align: center;
+	padding-top:60px;
+	letter-spacing: .1rem;
+}
+
+.aboutUs span{
+	color:#F68E13;
+}
+
+.aboutInfo{
+	overflow: hidden;
+	padding:50px;
+	padding-left:50px;
+}
+
+.aboutInfo p{
+	float: left;
+	width:45%;
+	padding-left: 50px;
+	text-align: center;
+	padding-top:40px;
+	letter-spacing: .2rem;
+    line-height: 1.2rem;
+}
+
+.aboutInfo img{
+  float:left;
+  width: 45%;
+  padding-left:50px;
+}
+
+.recommendation{
+	height: 600px;
+	background: #181718;
+	padding:60px;
+ }
+
+ .recommendation h1, .recommendation p{
+ 	color:rgb(226, 226, 226);
+ 	text-align: center;
+ }
+
+ .recommendation p{
+ 	color:#F68E13;
+ 	margin-top:10px;
+ }
+
+ .commentAll{
+ 	overflow: hidden;
+ }
+
+ .comment{
+ 	float: left;
+ 	background: #1B1C1E;
+ 	margin-top:100px;
+ 	width:27%;
+ 	height:280px;
+ 	padding:24px;
+ 	border-radius: 10px;
+ 	transition: .3s all ease-in-out;
+ 	margin-left:50px;
+ }
+
+ .comment img{
+ 	display: block;
+ 	margin:auto;
+    margin-top:-55px
+ }
+
+ .comment h3{
+   margin-top:10px;
+   color:rgb(226, 226, 226);
+ }
+
+ .comment h6{
+ 	 text-align: center;
+	 color:rgb(226, 226, 226);
+	 letter-spacing: .1rem;
+ }
+
+ .comment p{
+ 	width:250px;
+ 	margin:auto;
+ 	margin-top:20px;
+ 	color:rgb(226, 226, 226);
+ 	opacity: .8;
+ }
+
+ .comment p, .comment .rate{
+ 	text-align: center;
+ }
+
+ .comment .rate{
+ 	margin-top:5px;
+ }
+
+ .checked{
+ 	color: #F68E13;
+ }
+
+ .comment:hover{
+    cursor: pointer;
+ 	transform: scale(1.1);
+ }
+
+
+ .wesh{
+    height: 530px;
+ 	background: #1B1C1E;
+ }
+
+ .Goals{
+ 	display: flex;
+ 	justify-content: center;
+
+ }
+
+ .goals, .vision{
+ 	float: left;
+ 	width:40%;
+ 	margin-left:10px;
+ 	margin-top:100px;
+ 	padding:20px;
+ 	border-left: 6px solid #F68E13;
+ 	height:280px;
+ }
+
+ .goals h1, .vision h1, .goals p, .vision p{
+ 	text-align: center;
+ }
+
+ .goals h1, .vision h1{
+ 	color:red;
+ 	padding-bottom: 20px;
+ 	margin-top:-30px;
+ 	color:rgb(226, 226, 226);
+ }
+
+ .goals span, .vision span{
+ 	color:#F68E13;
+ }
+
+ .goals p, .vision p{
+ 	color:rgba(226, 226, 226);
+ 	font-size: 14px;
+ 	letter-spacing: .2rem;
+ 	line-height:1.2rem;
+ }
+
+ .vision{
+ 	border-right: 6px solid #F68E13;
+ 	height:280px;
+ }
+
+ .weshP{
+ 	text-align: center;
+    font-size: 11px;
+ 	letter-spacing: .1rem;
+ 	line-height:1.2rem;
+ 	padding-top:50px;
+ }
+
+ .security{
+ 	background: #181718;
+ 	height: 1800px;
+ }
+
+ .security h1{
+ 	padding-top:50px;
+ }
+
+ .firstSecurity{
+ 	background: #1B1C1E;
+ 	height:230px;
+ }
+
+ .firstSecurity h1, .firstSecurity p, .firstSecurity img{
+ 	margin-top:16px;
+ 	padding-top:00px;
+ }
+
+ .security .securityP{
+ 	    text-align: center;
+    font-size: 13px;
+    letter-spacing: .4rem;
+    line-height: 1.2rem;
+    padding-top: 90px;
+ }
+
+ hr{
+ 	    border: none;
+    border-radius: 10px;
+ }
+
+ .security .securityH{
+  margin-top:-50px;
+ }
+
+ .footer2{
+ 	background: #1B1C1E;
+ }
+
+
+@media screen and (max-width:700px){
+ 
+ .aboutUs{
+   height: 700px;
+ }
+
+ .aboutUs h1 {
+    color: rgb(226, 226, 226);
+    text-align: center;
+    padding-top: 60px;
+    letter-spacing: .1rem;
+    font-size: 26px;
+}
+
+.aboutInfo p {
+   width: 98%;
+   padding-left: 50px;
+   padding-top: 0px;
+    text-align: center;
+    letter-spacing: .1rem;
+    line-height: 1.2rem;
+}
+
+.aboutInfo img {
+    width: 94%;
+    padding-left: -30px;
+    margin-top: 46px;
+} 
+
+.recommendation{
+   height: 1320px;
+}
+
+.recommendation h1, .recommendation p {
+    font-size: 19px;
+}
+
+.comment {
+    float: left;
+    background: #1B1C1E;
+    margin-top: 60px;
+    width: 80%;
+    height: 333px;
+    padding: 24px;
+    border-radius: 10px;
+    transition: .3s all ease-in-out;
+    margin-left: 50px;
+    }
+    .wesh{
+   height: 900px;
+ }
+
+
+.Goals {
+    padding: 10px;
+    justify-content: center;
+    display: block;
+ }
+
+ .goals, .vision {
+    width: 101%;
+    margin-left: 10px;
+    margin-top: 100px;
+    padding: 20px;
+    border-left: 6px solid #F68E13;
+    height: 280px;
+}
+
+.security {
+    height: 2020px!important;
+  }
+ 
+}
+
+
+@media screen and (min-width:700px) and (max-width: 1024px){
+  
+  .aboutUs{
+   height: 700px;
+  }
+
+  .aboutInfo img {
+    float: left;
+    width: 467px;
+    /* padding-left: 56px; */
+    margin-top: 10%;
+    margin-left: 20%;
+  }
+
+  .aboutInfo p{
+   width: 100%;
+  }
+
+  .comment {
+    float: left;
+    background: #1B1C1E;
+    margin-top: 100px;
+    width: 26%;
+    height: 369px;
+    padding: 40px;
+    border-radius: 10px;
+    transition: .3s all ease-in-out;
+    margin-left: 33px;
+}
+
+.comment p {
+    width: 170px;
+    margin: auto;
+    margin-top: 20px;
+    color: rgb(226, 226, 226);
+    opacity: .8;
+    margin-left: -20px;
+    font-size: 14px;
+}
+
+.recommendation {
+    height: 633px;
+    background: #181718;
+    padding: 60px;
+}
+
+.wesh {
+    height: 700px;
+    background: #1B1C1E;
+}
+
+.weshP {
+    text-align: center;
+    font-size: 11px;
+    letter-spacing: .1rem;
+    line-height: 1.2rem;
+    padding-top: 32%;
+}
+
+
+}

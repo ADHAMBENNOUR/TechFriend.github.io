@@ -1,0 +1,804 @@
+
+ .BestCloud{
+ 	background: #1B1C1E;
+ 	height:500px;
+ }
+
+ .BestCloud h1{
+ 	color:rgb(226, 226, 226);
+ 	text-align: center;
+ 	padding-top:40px;
+ 	font-size: 50px;
+ }
+
+ .BestCloud span{
+ 	color:#F68E13;
+ }
+
+ .BestCloudInfo{
+ 	overflow: hidden;
+ 	padding-top:60px;
+ }
+
+ .BestCloudInfo p{
+ 	float: left;
+ 	width:40%;
+ 	margin-left:200px;
+ 	letter-spacing: .2rem;
+ 	line-height:1.2rem;
+ 	padding-top:20px;
+ }
+
+ .BestCloudInfo img{
+ 	float: left;
+ 	width: 20%;
+ 	margin-left:80px;
+ 	margin-top:-110px;
+ 	z-index:800!important;
+ }
+
+ .beforeImg{
+ 	width: 100px;
+    height: 130px;
+    border-left: 3px solid;
+    border-top: 3px solid;
+    margin-left: 800px;
+    padding-top:20px;
+    border-color: #B36A14
+ }
+
+ .afterImg{
+ 	width:150px;
+ 	height: 150px;
+ 	background: #F68E13;
+ 	margin-top:-15px;
+ 	margin-left:950px;
+ 	z-index:0;
+ }
+
+ .CloudServer{
+ 	height:700px;
+ 	background: #181718;
+ 	padding:80px;
+ }
+
+ .CloudServer h1, p{
+ 	text-align: center;
+ 	color:rgb(226, 226, 226);
+ }
+
+ .CloudServer p{
+ 	font-size: 13px;
+ 	padding-bottom: 30px;
+ }
+
+ .CloudServer span{
+ 	color:#F68E13;
+ }
+
+ .CloudServerInfo {
+ 	overflow: hidden;
+ 	padding-top: 50px;
+ }
+
+ .CloudServerInfo img{
+ 	float: left;
+ 	width: 35%;
+ 	height: 350px;
+ 	margin-left: 140px;
+ 	margin-top:-100px;
+ }
+
+ .CloudServerInfo p{
+ 	float: left;
+ 	width: 50%;
+ 	padding-left: 50px;
+ 	letter-spacing: .1rem;
+ 	line-height:1.1rem;
+ 	margin-left:590px;
+ 	padding-top:-300px;
+ }
+
+ .afterImgCloud{
+ 	width:250px;
+ 	height: 250px;
+ 	background: #F68E13;
+ 	margin-top:20px;
+ 	margin-left:115px;
+ 	z-index:0;
+ }
+
+ .beforeImgCloud{
+ 	width: 200px;
+    height: 130px;
+    border-right: 3px solid;
+    border-top: 3px solid;
+    margin-left: 400px;
+    padding-top:100px;
+    border-color: #B36A14
+ }
+
+ .CloudServerInfo .one{
+   margin-top:-380px;
+ }
+
+ .CloudServerInfo .two{
+   margin-top:-210px;
+ }
+
+
+ .CloudServerInfo .three{
+   margin-top:-100px;
+ }
+
+ .footer {
+    height: 350px;
+    padding:10px;
+    background: #1B1C1E;
+}
+
+ .footer .choise{
+ 	height: 300px;
+ }
+
+ .footer .choise .one, .footer .choise .two, .footer .choise .three, .footer .choise .four{
+    height: 230px;
+    margin-top: 2%;
+    width:250px;
+    background: #181718;
+
+ }
+
+ .footer .choise h1{
+ 	color:rgb(226, 226, 226);
+ 	font-size: 25px;
+ }
+
+ .footer .choise h2{
+ 	color:rgb(226, 226, 226);
+ 	font-size: 25px;
+ }
+
+ .footer .choise h3{
+ 	color:rgb(226, 226, 226);
+ 	font-size: 25px;
+ }
+
+ .footer .choise h4{
+ 	color:rgb(226, 226, 226);
+ 	font-size: 25px;
+ }
+
+.footer .choise .one:hover{
+    background-color: #181718;
+    cursor: pointer;
+    width:20%;
+    padding:2%;
+    box-shadow: 0 8px 16px 0 black;
+    transition: .5s;
+    transform: scale(1.1);
+}
+
+.footer .choise .one:hover h1{
+    color:rgba(226, 226, 226, .8);
+    font-size: 20px;
+    transition: .3s;
+}
+
+.footer .choise .one:hover p{
+        color:rgba(226, 226, 226, .5);
+
+    font-size: 16px;
+    transition: .2s;
+    opacity: .8;
+}
+
+.footer .choise .two:hover{
+    background-color: #181718;
+    cursor: pointer;
+    width:20%;
+    padding:2%;
+    box-shadow: 0 8px 16px 0 black;
+    transition: .5s;
+    transform: scale(1.1);
+}
+
+
+.footer .choise .three:hover{
+    background-color: #181718;
+    cursor: pointer;
+    width:20%;
+    padding:2%;
+    box-shadow: 0 8px 16px 0 black;
+    transition: .5s;
+    border-radius: 5px;
+        transform: scale(1.1);
+}
+
+
+.footer .choise .four:hover{
+    background-color: #181718;
+    cursor: pointer;
+    width:20%;
+    padding:2%;
+    box-shadow: 0 8px 16px 0 black;
+    transition: .5s;
+    border-radius: 5px;
+        transform: scale(1.1);
+
+}
+
+.fourth{
+	height:1000px;
+	background: #181718;
+	padding:50px;
+}
+
+.fourth h1{
+   text-align: center;
+   color:rgb(226, 226, 226);
+   padding-bottom:50px;
+}
+
+.only{
+   padding-top:50px;
+}
+
+.fourth span{
+	color:#F68E13;
+}
+
+.youtube{
+    overflow: hidden;
+    margin-left: 80px;
+}
+
+iframe{
+   float:left;
+   width:40%;
+}
+
+.youtube div{
+	float: left;
+	width:55%;
+	margin-left: 50px;
+}
+
+.youtube p{
+	font-size: 13px;
+	text-align: left;
+	opacity: .6;
+	padding-bottom: 35px;
+    padding-top: 10px;
+} 
+
+.youtube span{
+	color:rgb(226, 226, 226);
+	padding-top:50px;
+	font-size: 15px;
+	padding-top:5px;
+}
+
+.rate{
+    overflow: hidden;
+}
+
+.rateOne{
+    width:200px;
+    height:350px;
+    background: #1B1C1E;
+    padding:33px;
+    transition: .3s all ease-in-out;
+}
+
+.rateOne{
+    float: left;
+    width:23%;
+    margin-left:20px;
+        border-radius: 15px;
+}
+
+.rateOne h4, h2{
+    text-align: center;
+    color:rgb(226, 226, 226);
+}
+
+.rateOne h5{
+        padding-top:3px;
+    color:rgb(226, 226, 226);
+}
+
+ .rateOne button{
+    width:150px;
+    padding:3px;
+    margin-top:13px;
+ }
+
+.rateOne:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow:  0 8px 8px 0 rgba(0,0,0,0.8);
+    border-radius: 15px;
+}
+
+.features{
+    height:1300px;
+    background: #1B1C1E;
+} 
+
+.features h1{
+    text-align: center;
+    color:white;
+    padding-top:60px;
+}
+
+.features span{
+  color:#F68E13;
+}
+
+.features p{
+  color: rgb(226, 226, 226);
+    font-size: 13px;
+    text-align: center;
+    padding-top: 20px;
+    letter-spacing: .1rem;
+    line-height: 1.1rem;
+}
+
+
+.featuresAll{
+    padding:20px;
+    overflow: hidden;
+} 
+
+.featuresAllOne{
+    float: left;
+    width:30%;
+    height:250px;
+    background: #181718;
+    border-radius: 20px;
+    padding:15px;
+    margin-left:30px;
+    margin-top:20px;
+    transition: .3s all ease-in-out;
+}
+
+.featuresAllOne:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+        box-shadow:  0 8px 8px 0 rgba(0,0,0,0.8);
+        border-radius: 30px;
+}
+
+.featuresAllOne h1, .featuresAllOne p{
+    text-align: center;
+}
+
+.featuresAllOne h1{
+    color:#F68E13;
+}
+
+.lastone{
+    width:50%;
+    margin-left:25%;
+}
+
+.featuresAllOne h1{
+    padding-top:20px;
+}
+
+.featuresAllOne img{
+    display: block;
+    margin:auto;
+}
+
+h1{
+    color:wheat;
+}
+
+
+.footer2{
+    background: #181718;
+}
+
+
+@media screen and (max-width:700px){
+ 
+ .BestCloud {
+    height: 800px;
+ }
+
+ .BestCloud h1 {
+   font-size: 30px;
+  }
+
+  .BestCloudInfo p{
+    width: 84%;
+    padding-top: 285px;
+    margin-left: 45px;
+    font-size: 13px;
+  }
+
+ .BestCloudInfo img{
+    width: 228px;
+    margin-left: 120px;
+    margin-top: -515px;
+ }
+
+ .afterImg {
+    width: 176px!important;
+    height: 174px!important;
+    background: #F68E13;
+    margin-top: -72px!important;
+    margin-left: 188px!important;
+    z-index: 0;
+}
+
+ .beforeImg {
+    width: 100px!important;
+    height: 130px!important;
+    border-left: 3px solid;
+    border-top: 3px solid;
+    margin-left: 102px!important;
+    padding-top: 27px!important;
+    border-color: #B36A14;
+}
+
+.CloudServer p {
+    font-size: 12px;
+    padding-bottom: 27px;
+  }
+
+  .CloudServerInfo img {
+    float: left;
+    width: 243px;
+    height: 200px;
+    margin-left: 47px;
+    margin-top: -109px;
+  }
+
+  .beforeImgCloud {
+    width: 200px;
+    height: 130px;
+    border-right: 3px solid;
+    border-top: 3px solid;
+    margin-left: 110px;
+    padding-top: 130px;
+    padding-top: 101px;
+    border-color: #B36A14;
+  }
+
+  .afterImgCloud {
+    width: 188px;
+    height: 153px;
+    background: #F68E13;
+    margin-top: -48px;
+    margin-left: 33px;
+    z-index: 0;
+}
+
+.CloudServer{
+    height: 1100px;
+}
+
+.CloudServerInfo .one {
+    margin-top: 23px;
+    width: 332px;
+    margin-left: -32px;
+    font-size: 11px;
+}
+
+.CloudServerInfo .two {
+    margin-top: 23px;
+    width: 332px;
+    margin-left: -32px;
+    font-size: 11px;
+}
+
+.CloudServerInfo .three {
+    margin-top: 23px;
+    width: 332px;
+    margin-left: -32px;
+    font-size: 11px;
+}
+
+.CloudServer p {
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.footer{
+    height: 1012px;
+ }
+
+ .footer .choise {
+    height: 920px;
+ }
+
+ .footer .choise .two,.footer .choise .three, .footer .choise .four{
+    margin-top:40px;
+ }
+ 
+ .footer .choise .one:hover,
+ .footer .choise .two:hover,
+ .footer .choise .three:hover,
+ .footer .choise .four:hover{
+    background-color: #181718;
+    cursor: pointer;
+    width:250px;
+    padding:2%;
+    box-shadow: 0 8px 16px 0 black;
+    transition: .5s;
+    transform: scale(1.1);
+}
+
+.fourth h1{
+    font-size: 28px;
+}
+
+iframe {
+    width: 100%;
+    height: 232px;
+}
+
+.youtube {
+    overflow: hidden;
+    margin-left: 8px;
+}
+
+.youtube p {
+    font-size: 13px;
+    text-align: left;
+    opacity: .6;
+    padding-bottom: 35px;
+    padding-top: 29px;
+    width: 351px;
+}
+
+.youtube span{
+    font-size: 17px;
+}
+
+.fourth{
+    height: 2600px;
+}
+
+.rateOne {
+    width: 281px!important;
+    height: 350px;
+    background: #1B1C1E;
+    padding: 33px;
+    transition: .3s all ease-in-out;
+    margin-left: 75px;
+    margin-bottom: 20px;
+    margin-top:15px;
+}
+
+.features{
+    height: 1700px;
+}
+
+.featuresAllOne{
+    width: 42%!important;
+}
+
+.lastone{
+    width: 42%!important;
+    margin-left: 30px;
+}
+
+.featuresAllOne img {
+    width: 35px!important;
+ }
+
+ .featuresAll .featuresAllOne .h09{
+    padding-top: 0px;
+ }
+ 
+}
+
+
+@media screen and (min-width:700px) and (max-width: 1300px){
+
+ .BestCloud {
+    height: 720px;
+ }
+
+ .BestCloudInfo p {
+    float: none; 
+    width: 90%;
+    margin-left: 5%;
+    letter-spacing: .2rem;
+    line-height: 1.2rem;
+    padding-top: 20px;
+    text-align: center; 
+}
+
+.BestCloudInfo img {
+    float: left;
+    width: 280px!important;
+    margin-left: 210px;
+    margin-top: -110px;
+}
+
+.beforeImg {
+    width: 100px;
+    height: 130px;
+    border-left: 3px solid;
+    border-top: 3px solid;
+    margin-left: 191px;
+    margin-top: 31px;
+    border-color: #B36A14;
+}
+
+.afterImg {
+    width: 150px;
+    height: 150px;
+    background: #F68E13;
+    margin-top: -4px;
+    margin-left: 353px;
+    z-index: 0;
+}
+
+.CloudServerInfo .one {
+    margin-top: -359px;
+}
+
+.CloudServerInfo .two {
+    margin-top: -186px;
+}
+
+.CloudServerInfo .three {
+    margin-top: -94px;
+}
+
+.CloudServerInfo img {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin-left: 13px;
+    margin-top: -106px;
+}
+
+.beforeImgCloud {
+    width: 200px;
+    height: 130px;
+    border-right: 3px solid;
+    border-top: 3px solid;
+    margin-left: 131px;
+    margin-top: 21px;
+    border-color: #B36A14;
+}
+
+.afterImgCloud {
+    height: 250px;
+    background: #F68E13;
+    margin-top: -35px;
+    margin-left: -2px;
+    z-index: 0;
+}
+
+.CloudServer .CloudServerInfo .pipi{
+    margin-left: -20%;
+}
+
+.three, .footer .choise .one,
+.three, .footer .choise .two,
+.three, .footer .choise .three,
+.three, .footer .choise .four
+ {
+    height: 200px;
+    margin-top: 4%;
+    width: 200px;
+    background: #181718;
+}
+
+iframe {
+    float: left;
+    width: 580px;
+    margin-left: 0%;
+}
+
+.youtube div {
+    float: left;
+    width: 55%;
+    margin-left: 23%;
+}
+
+.fourth {
+    height: 1420px;
+}
+
+.rateOne {
+    float: left;
+    width: 23%;
+    margin-left: 8px;
+    border-radius: 15px;
+    height: 400px;
+}
+
+.rateOne button {
+    width: 100px;
+    padding: 3px;
+    margin-top: 13px;
+}
+
+.lastone {
+    width: 30%;
+    margin-left: 30px
+}
+
+.features {
+    height: 1571px;
+    background: #1B1C1E;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.footer .choise .one img{
+ 	width:150px;
+ 	padding-bottom: 10px;
+ }
+
+ .footer .choise .two img{
+ 	width:150px;
+ }
+
+ .footer .choise .three img{
+ 	width:150px;
+ }
+
+ .footer .choise .four img{
+ 	width:150px;
+ }*/
+
+ /*
+ .footer .choise .one h1 {
+    text-align: center;
+    padding-top: 30%;
+    padding-left:50px;
+}
+
+.footer .choise .two h1 {
+    text-align: center;
+    padding-top: 30%;
+    padding-left:50px;
+}
+
+.footer .choise .three h1 {
+    text-align: center;
+    padding-top: 30%;
+    padding-left:50px;
+}
+
+
+.footer .choise .four h1 {
+    text-align: center;
+    padding-top: 30%;
+    padding-left:50px;
+}*/
+
+

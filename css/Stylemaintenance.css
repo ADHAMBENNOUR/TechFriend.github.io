@@ -1,0 +1,289 @@
+.maintenance{
+	background: #1B1C1E;
+	height: 560px;
+	overflow: hidden;
+	padding-left:200px;
+	padding-top:60px;
+}
+
+.maintenance img{
+	width: 35%;
+	float: left;
+}
+
+.maintenance .maintenanceInfo{
+	width: 50%;
+	float: left;
+	padding-left:100px;
+	padding-top:120px;
+}
+
+.maintenance .maintenanceInfo h1, .maintenance .maintenanceInfo p{
+	color:rgb(226, 226, 226);
+}
+
+.maintenance .maintenanceInfo h1 > span{
+	color:#F68E13;
+}
+
+.maintenance .maintenanceInfo p{
+ font-size: 14px;
+ line-height: 1.5rem;
+ padding-top:30px;
+}
+
+.youtube{
+   background: #181718;
+   height: 500px;
+   padding:20px;
+ }
+
+ .youtube h1{
+   text-align: center;
+   color:rgb(226, 226, 226);
+   padding-top:30px;
+ }
+
+ .youtube span{
+   color:#F68E13;
+ }
+
+ .youtubeInfo{
+   overflow: hidden;
+   padding:30px;
+       margin-left: 80px;
+
+ }
+
+ .youtubeInfo img{
+   float: left;
+   width:40%;
+   margin-top:25px;
+   border-radius: 10px;
+ }
+
+ .youtubeInfo div{
+   float: left;
+   width: 55%;
+   margin-left: 50px;
+ }
+
+ .youtubeInfo p{
+   font-size: 14px;
+   text-align: left;
+   letter-spacing: .1rem; 
+   line-height: 1.2rem;
+   padding-top:60px;
+   opacity: .8;
+}
+
+.footer{
+  background: #1B1C1E;
+}
+
+.footer .choise .one h1, .footer .choise .two h1, .footer .choise .three h1,.footer .choise .four h1{
+   color:rgb(226, 226, 226);
+ }
+
+ .footer .choise .one, .footer .choise .two, .footer .choise .three, .footer .choise .four{
+  background: #181718;
+ }
+
+.youtubeInfo p.specialPOne {
+    font-size: 14px;
+    text-align: left;
+    letter-spacing: .1rem;
+    line-height: 1.2rem;
+    padding-top: 45px;
+    opacity: .8;
+}
+
+.youtubeInfo p.specialPTwo {
+    font-size: 14px;
+    text-align: left;
+    letter-spacing: .1rem;
+    line-height: 1.2rem;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    opacity: .8;
+}
+
+.security h1{
+	padding-top:60px;
+   padding-bottom:20px;
+}
+
+.security{
+  background: #1B1C1E;
+}
+
+.firstSecurity1, .firstSecurity2, .firstSecurity3, .firstSecurity4, .firstSecurity5{
+	padding:10px;
+	height:250px;
+	border-radius: 30px;
+}
+
+.firstSecurity1 h1,.firstSecurity2 h1, .firstSecurity3 h1, .firstSecurity4 h1, .firstSecurity5 h1{
+	padding-top:15px;
+	font-size:20px;
+} 
+
+.firstSecurity{
+  background: #181718;
+}
+
+.footer2{
+  background: #181718;
+}
+
+@media screen and (max-width:700px){
+
+.maintenance {
+    background: #1B1C1E;
+    height: 700px;
+    overflow: hidden;
+    padding-left: 40px;
+    padding-top: 60px;
+}
+
+.maintenance img {
+    width: 87%;
+    float: left;
+}
+
+.maintenance .maintenanceInfo h1, .maintenance .maintenanceInfo p {
+    color: rgb(226, 226, 226);
+    font-size: 39px;
+    /* text-align: center; */
+    margin-top: -100px;
+}
+
+.maintenance .maintenanceInfo p {
+    font-size: 14px;
+    line-height: 1.5rem;
+    padding-top: 106px;
+    width: 257px;
+    margin-left: -30px;
+}
+
+.youtube{
+  height: 600px;
+}
+
+.youtubeInfo {
+    overflow: hidden;
+    padding: 30px;
+    margin-left: 31px;
+}
+
+.youtubeInfo img {
+    float: left;
+    width: 88%;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.youtubeInfo div {
+    float: left;
+    width: 101%;
+    margin-left: -8px;
+} 
+
+.footer .choise .one,
+.footer .choise .two,
+.footer .choise .three,
+.footer .choise .four {
+    width: 250px!important;
+    height: 230px!important;
+}
+
+.footer .choise .three,
+.footer .choise .two,
+.footer .choise .four {
+    margin-top: -600px;
+}
+
+.footer {
+  height: 1500px;
+}
+
+.youtube {
+    height: 710px;
+}
+
+.security {
+    height: 2200px!important;
+}
+
+.security .firstSecurity {
+    height: 313px;
+    width: 290px;
+}
+
+}
+
+@media screen and (min-width:700px) and (max-width: 1300px){
+
+.maintenance img {
+    width: 360px;
+    float: left;
+    margin-top: 75px;
+    margin-left: -150px;
+}
+
+.maintenance .maintenanceInfo {
+    width: 68%;
+    float: left;
+    margin-left: 118px;
+    margin-top: -329px;
+}
+
+.youtube {
+    background: #181718;
+    height: 700px;
+    padding: 20px;
+}
+
+.youtubeInfo {
+    overflow: hidden;
+    padding: 30px;
+    margin-left: 25%;
+}
+
+.youtubeInfo img {
+    width: 450px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.youtubeInfo p{
+    width: 140%;
+}
+
+
+.footer .choise .one,
+.footer .choise .two,
+.footer .choise .three,
+.footer .choise .four {
+    float: left;
+    width: 24%;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 9%;
+    border-radius: 20%;
+    transition: .5s;
+    padding: 25px;
+    height: 211px;
+}
+
+
+.youtube {
+    background: #181718;
+    height: 810px;
+    padding: 20px;
+}
+
+
+}

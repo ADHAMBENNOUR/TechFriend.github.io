@@ -1,0 +1,355 @@
+.maintenance{
+	background: #1B1C1E;
+	height: 560px;
+	overflow: hidden;
+	padding-left:200px;
+	padding-top:60px;
+}
+
+.maintenance img{
+	width: 25%;
+	float: left;
+	margin-left:-100px;
+	padding-top:60px;
+}
+
+.maintenance .maintenanceInfo{
+	width: 60%;
+	float: left;
+	padding-left:00px;
+	padding-top:120px;
+}
+
+.maintenance .maintenanceInfo h1, .maintenance .maintenanceInfo p{
+	color:rgb(226, 226, 226);
+}
+
+.maintenance .maintenanceInfo h1 > span{
+	color:#F68E13;
+}
+
+.maintenance .maintenanceInfo p{
+ font-size: 14px;
+ line-height: 1.5rem;
+ padding-top:30px;
+ width:80%;
+}
+
+.security{
+	height:300px;
+	background: #181718;
+	padding-top:50px;
+}
+
+.security p{
+	width:80%;
+margin:auto}
+
+.youtube{
+   background: #181718;
+   height: 500px;
+   padding:20px;
+ }
+
+ .youtube h1{
+   text-align: center;
+   color:rgb(226, 226, 226);
+   padding-top:30px;
+ }
+
+ .youtube span{
+   color:#F68E13;
+ }
+
+ .youtubeInfo{
+   overflow: hidden;
+   padding:30px;
+       margin-left: 80px;
+
+ }
+
+ .youtubeInfo img{
+   float: left;
+   width:40%;
+   margin-top:25px;
+   border-radius: 10px;
+ }
+
+ .youtubeInfo div{
+   float: left;
+   width: 55%;
+   margin-left: 50px;
+ }
+
+ .youtubeInfo p{
+   font-size: 14px;
+   text-align: left;
+   letter-spacing: .1rem; 
+   line-height: 1.2rem;
+   padding-top:60px;
+   opacity: .8;
+}
+
+.footer{
+    background: #1B1C1E;
+}
+
+.footer .choise .one h1, .footer .choise .two h1, .footer .choise .three h1,.footer .choise .four h1{
+   color:rgb(226, 226, 226);
+ }
+
+ .footer .choise .one, .footer .choise .two, .footer .choise .three, .footer .choise .four{
+    background: #181718;
+ }
+
+.youtubeInfo p.specialPOne {
+    font-size: 14px;
+    text-align: left;
+    letter-spacing: .1rem;
+    line-height: 1.2rem;
+    padding-top: 45px;
+    opacity: .8;
+}
+
+.youtubeInfo p.specialPTwo {
+    font-size: 14px;
+    text-align: left;
+    letter-spacing: .1rem;
+    line-height: 1.2rem;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    opacity: .8;
+}
+
+.ourServices{
+   background: #1B1C1E;
+   height:350px;
+   padding:20px;
+}
+
+.ourServices h1{
+ color:rgb(226, 226, 226);
+ text-align: center;
+ padding-top:30px;
+}
+
+.ourServices span{
+   color:#F68E13;
+}
+
+.ourServices h2{
+   color:rgb(226, 226, 226);
+}
+
+.card img{
+    padding-top: 30px;
+    margin-bottom: -50px;
+    width:60px;
+    border-radius: 0%;
+}
+
+.card{
+   padding-top:10px;
+}
+
+.card1, .card2, .card3{
+    border-right: none;
+}
+
+.Finger{
+	background: #181718;
+	height:650px;
+}
+
+.Finger h1, p{
+	text-align: center;
+}
+
+.Finger h1{
+	color:rgb(226, 226, 226);
+	padding-top:70px;
+	padding-bottom:30px;
+}
+
+.Finger span{
+	color:#F68E13;
+}
+
+.Finger p{
+	    color: rgb(226, 226, 226);
+    font-size: 13px;
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing: .1rem;
+    line-height: 1.1rem;
+    width:80%;
+    margin: auto;
+}
+
+ .Finger img{
+ 	width:500px;
+ 	display: block;
+ 	margin:auto;
+ 	padding-top:50px;
+ }
+
+
+ .footer2{
+ 	background: #1B1C1E;
+ }
+
+
+@media screen and (max-width:700px){
+
+  .maintenance{
+    height: 400px;
+  }  
+
+ .maintenance .maintenanceInfo {
+    width: 113%;
+    float: left;
+    padding-left: 59px;
+    padding-top: 0
+}
+
+.maintenance {
+    background: #1B1C1E;
+    height: 629px;
+    overflow: hidden;
+    padding-left: 0;
+    padding-top: 60px;
+}
+
+.maintenance img {
+    width: 340px;
+    float: left;
+    margin-left: 99px;
+    padding-top: 20px;
+}
+
+.security {
+    height: 412px!important;
+    background: #181718;
+    padding-top: 50px;
+}
+
+.footer .choise .one,
+.footer .choise .two,
+.footer .choise .three,
+.footer .choise .four {
+    width: 250px;
+    height: 230px;
+}
+
+.footer .choise .two,
+.footer .choise .three,
+.footer .choise .four {
+    margin-top: -193%;
+}
+.footer {
+    height: 1200px;
+}
+
+.youtube {
+    background: #181718;
+    height: 900px;
+    padding: 20px;
+}
+
+.youtubeInfo {
+    overflow: hidden;
+    padding: 30px;
+    margin-left: 0
+}
+
+.youtubeInfo img {
+    float: left;
+    width: 100%;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.youtubeInfo div {
+    float: left;
+    width: 90%;
+    margin-left: 50px;
+}
+
+.card3, .card4 {
+    margin-top: -189px;
+}
+
+.ourServices{
+    height: 600px;
+}
+
+.ourServices h1 {
+    font-size: 35px;
+}
+
+.Finger {
+    background: #181718;
+    height: 850px;
+}
+ 
+}
+
+@media screen and (min-width:700px) and (max-width: 1300px){
+
+.maintenance img {
+    width: 42%;
+    float: left;
+    margin-left: 20px;
+    padding-top: 94px;
+}
+
+.maintenance .maintenanceInfo {
+    margin-left: -100px;
+    width: 60%;
+    float: left;
+    padding-left: 0px;
+    padding-top: 120px;
+}
+
+.footer .choise .one,
+.footer .choise .two,
+.footer .choise .three,
+.footer .choise .four {
+    float: left;
+    width: 23%;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 20%;
+    transition: .5s;
+    padding: 25px;
+    height: 209px;
+}
+.youtube {
+    background: #181718;
+    height: 1000px;
+    padding: 20px;
+}
+
+.youtubeInfo {
+    overflow: hidden;
+    padding: 30px;
+    margin-left: 21%;
+}
+
+.youtubeInfo img {
+    float: left;
+    width: 441px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.Finger {
+    background: #181718;
+    height: 700px;
+}
+
+
+}
